@@ -69,16 +69,44 @@ hi link cConstant Normal
 " CSS
 hi link cssAttrComma Normal
 hi link cssSelectorOp Operator
-hi link cssUnitDecorators Constant
-hi link cssValueLength Constant
+hi link cssSelectorOp2 String
+hi link cssUnitDecorators Number
+hi link cssValueLength Number
 hi link cssVendor Ignore
-hi link cssTagName Tag
+hi link cssTagName Type
+hi link cssColor Number
+hi link cssClassName Normal
+hi link cssFunction Normal
+hi link cssFunctionComma Normal
+
+" SASS
+hi link sassClass Normal
+hi link sassMixing Function
+hi link sassId Normal
 
 " HTML
-hi link htmlEndTag PreProc
-hi link htmlTag PreProc
-hi link htmlTagName PreProc
-hi link htmlSpecialTagName PreProc
+hi link htmlEndTag Include
+hi link htmlTag Include
+hi link htmlTagName Include
+hi link htmlSpecialTagName Include
 hi link htmlArg Tag
 hi link htmlLink Normal
 hi link htmlSpecialChar Constant
+
+" PHP
+hi link phpMemberSelector Operator
+hi link phpVarSelector Identifier
+hi link phpParent Operator
+
+" Twig
+hi link twigTagBlock Normal
+hi link twigVarBlock Normal
+hi link twigTagDelim PreProc
+hi link twigVarDelim PreProc
+hi link twigString String
+hi link twigNumber Number
+
+" Vim
+hi link vimFgBgAttrib Constant
+hi link vimHiAttrib Constant
+hi link vimParenSep Normal
