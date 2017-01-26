@@ -59,6 +59,8 @@ hi LineNr guifg=#9098a0 guibg=#f4f4f4 gui=none
 
 " C
 hi link cConstant Normal
+hi link cCustomClass Normal
+hi link cCustomFunc Identifier
 
 " CSS
 hi link cssAttrComma Normal
@@ -72,6 +74,7 @@ hi link cssColor Number
 hi link cssClassName Normal
 hi link cssFunction Normal
 hi link cssFunctionComma Normal
+hi link cssIdentifier Normal
 
 " SASS
 hi link sassClass Normal
@@ -104,3 +107,8 @@ hi link twigNumber Number
 hi link vimFgBgAttrib Constant
 hi link vimHiAttrib Constant
 hi link vimParenSep Normal
+
+" Rust
+hi link rustFuncName Identifier
+hi link rustFuncCall Identifier
+hi link rustEscape SpecialChar
