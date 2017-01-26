@@ -136,8 +136,6 @@ hi link vimHiAttrib Constant
 hi link vimParenSep Normal
 
 " Rust
-hi link rustFuncName Identifier
-hi link rustFuncCall Identifier
 hi link rustEscape SpecialChar
 hi link rustModPath Normal
 hi link rustModPathSep Operator
