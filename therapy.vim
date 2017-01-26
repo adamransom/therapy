@@ -10,7 +10,7 @@ let g:colors_name = "therapy"
 "
 hi Normal guifg=#444444 guibg=#fcfcfc gui=none ctermfg=none ctermbg=none cterm=none
 
-hi Comment guibg=#fcfcfc guifg=#9098a0 gui=italic ctermfg=13 ctermbg=none cterm=italic
+hi Comment guifg=#9098a0 guibg=#fcfcfc gui=italic ctermfg=13 ctermbg=none cterm=italic
 
 hi Constant guifg=#b08020 guibg=#f0e8c0 gui=none ctermfg=3 ctermbg=11 cterm=none
 hi Boolean guifg=#b08020 guibg=#fcfcfc gui=none ctermfg=3 ctermbg=none cterm=none
@@ -51,7 +51,7 @@ hi Title guifg=#444444 guibg=#fcfcfc gui=none ctermfg=none ctermbg=none gui=none
 hi Todo guifg=#b63724 guibg=#f4f4f4 gui=none ctermfg=1 ctermbg=15 cterm=none
 hi Error guifg=#fcfcfc guibg=#b63724 gui=bold ctermfg=15 ctermbg=1 cterm=bold
 
-hi Cursor guibg=#444444 guifg=#fcfcfc gui=none ctermbg=8 cterm=none
+hi Cursor guifg=#fcfcfc guibg=#444444 gui=none ctermbg=8 cterm=none
 hi CursorColumn guibg=#e0e0e0 ctermbg=14
 hi CursorLine guibg=#e0e0e0 ctermbg=14
 hi CursorLineNr guifg=#606060 guibg=#e0e0e0 gui=none ctermfg=0 ctermbg=14 cterm=none
@@ -67,12 +67,12 @@ hi Pmenu guifg=#444444 guibg=#eaeaea gui=none ctermfg=none ctermbg=7 cterm=none
 hi PmenuSbar guifg=#444444 guibg=#d0d0d0 gui=none ctermfg=none ctermbg=6 cterm=none
 hi PmenuSel guifg=#444444 guibg=#d0d0d0 gui=none ctermfg=none ctermbg=6 cterm=none
 hi PmenuThumb guifg=#707070 guibg=#707070 gui=none ctermfg=8 ctermbg=8 cterm=none
-hi Search guifg=#fcfcfc guibg=#808080 gui=bold,underline ctermfg=15 ctermbg=5 cterm=none
+hi Search guifg=#fcfcfc guibg=#808080 gui=bold,underline ctermfg=15 ctermbg=5 cterm=bold
 hi SignColumn guifg=#606060 guibg=#d0d0d0 gui=none ctermfg=0 ctermbg=6 cterm=none
 hi StatusLine guifg=#fcfcfc guibg=#707070 gui=none ctermfg=15 ctermbg=8 cterm=none
 hi StatusLineNC guifg=#d0d0d0 guibg=#808080 gui=italic ctermfg=6 ctermbg=5 cterm=italic
 hi TabLineFill guifg=#606060 guibg=#d0d0d0 gui=none ctermfg=0 ctermbg=6 cterm=none
-hi VertSplit guifg=#707070 guibg=#707070 ctermfg=8 ctermbg=8
+hi VertSplit guifg=#707070 guibg=#707070 ctermfg=8 ctermbg=8 cterm=none
 hi Visual guifg=#606060 guibg=#d0d0d0 gui=none ctermfg=0 ctermbg=6 cterm=none
 hi WildMenu guifg=#444444 guibg=#f4f4f4 gui=none ctermfg=none ctermbg=15 cterm=none
 
