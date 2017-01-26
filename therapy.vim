@@ -77,26 +77,30 @@ hi link cssSelectorOp2 String
 hi link cssUnitDecorators Number
 hi link cssValueLength Number
 hi link cssVendor Ignore
-hi link cssTagName Type
+hi link cssTagName Tag
 hi link cssColor Number
-hi link cssClassName Normal
+hi link cssClassName String
 hi link cssFunction Normal
 hi link cssFunctionComma Normal
 hi link cssIdentifier Normal
+hi link cssBraces Normal
+hi link cssProp Define
 
 " SASS
-hi link sassClass Normal
+hi link sassClass String
+hi link sassClassChar Normal
 hi link sassMixing Function
 hi link sassId Normal
 
 " HTML
-hi link htmlEndTag Include
-hi link htmlTag Include
-hi link htmlTagName Include
-hi link htmlSpecialTagName Include
-hi link htmlArg Tag
+hi link htmlEndTag Tag
+hi link htmlTag Tag
+hi link htmlTagName Tag
+hi link htmlSpecialTagName Tag
+hi link htmlArg Statement
 hi link htmlLink Normal
 hi link htmlSpecialChar Constant
+hi link htmlString SubtleString
 
 " PHP
 hi link phpMemberSelector Operator
@@ -120,3 +124,9 @@ hi link vimParenSep Normal
 hi link rustFuncName Identifier
 hi link rustFuncCall Identifier
 hi link rustEscape SpecialChar
+hi link rustModPath Normal
+hi link rustModPathSep Operator
+
+" YAML
+hi link yamlPlainScalar SubtleString
+hi link yamlKeyValueDelimiter Identifier
