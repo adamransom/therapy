@@ -18,7 +18,7 @@ hi Character guifg=#707070 guibg=#eaeaea gui=none ctermfg=8 ctermbg=7 cterm=none
 hi Float guifg=#b08020 guibg=#fcfcfc gui=none ctermfg=3 ctermbg=none cterm=none
 hi Number guifg=#b08020 guibg=#fcfcfc gui=none ctermfg=3 ctermbg=none cterm=none
 hi String guifg=#707070 guibg=#eaeaea gui=none ctermfg=8 ctermbg=7 cterm=none
-hi SubtleString guifg=#604080 guibg=#fcfcfc gui=none ctermfg=10 ctermbg=none cterm=none
+hi SubtleString guifg=#707070 guibg=#fcfcfc gui=none ctermfg=8 ctermbg=none cterm=none
 
 hi Identifier guifg=#2980b9 guibg=#fcfcfc gui=none ctermfg=2 ctermbg=none cterm=none
 hi Function guifg=#604080 guibg=#fcfcfc gui=none ctermfg=10 ctermbg=none cterm=none
