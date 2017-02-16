@@ -140,7 +140,12 @@ hi link vimParenSep Normal
 hi link rustEscape SpecialChar
 hi link rustModPath Normal
 hi link rustModPathSep Operator
+hi link rustModPathSep Operator
+hi link rustCommentLineDoc SpecialComment
 
 " YAML
 hi link yamlPlainScalar SubtleString
 hi link yamlKeyValueDelimiter Identifier
+
+" XML
+hi link xmlEndTag Function
