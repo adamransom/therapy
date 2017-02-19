@@ -149,3 +149,6 @@ hi link yamlKeyValueDelimiter Identifier
 
 " XML
 hi link xmlEndTag Function
+
+" Git
+hi link gitcommitOverflow Comment
