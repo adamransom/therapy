@@ -68,7 +68,7 @@ hi Pmenu guifg=#444444 guibg=#eaeaea gui=none ctermfg=none ctermbg=7 cterm=none
 hi PmenuSbar guifg=#444444 guibg=#d0d0d0 gui=none ctermfg=none ctermbg=12 cterm=none
 hi PmenuSel guifg=#444444 guibg=#d0d0d0 gui=none ctermfg=none ctermbg=12 cterm=none
 hi PmenuThumb guifg=#707070 guibg=#707070 gui=none ctermfg=8 ctermbg=8 cterm=none
-hi Search guifg=#fcfcfc guibg=#808080 gui=bold,underline ctermfg=15 ctermbg=5 cterm=bold
+hi Search guifg=#fcfcfc guibg=#808080 gui=bold ctermfg=15 ctermbg=5 cterm=bold
 hi SignColumn guifg=#606060 guibg=#d0d0d0 gui=none ctermfg=0 ctermbg=12 cterm=none
 hi StatusLine guifg=#fcfcfc guibg=#707070 gui=none ctermfg=15 ctermbg=8 cterm=none
 hi StatusLineNC guifg=#d0d0d0 guibg=#808080 gui=italic ctermfg=12 ctermbg=5 cterm=italic
