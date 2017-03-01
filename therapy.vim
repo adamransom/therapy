@@ -77,6 +77,10 @@ hi VertSplit guifg=#707070 guibg=#707070 ctermfg=8 ctermbg=8 cterm=none
 hi Visual guifg=#606060 guibg=#d0d0d0 gui=none ctermfg=0 ctermbg=12 cterm=none
 hi WildMenu guifg=#444444 guibg=#f4f4f4 gui=none ctermfg=none ctermbg=15 cterm=none
 
+hi SpellBad ctermfg=1 ctermbg=9 cterm=none
+hi SpellLocal ctermfg=1 ctermbg=15 cterm=none
+hi SpellRare ctermbg=15 cterm=none
+
 "
 " Language-specific Highlighting
 "
