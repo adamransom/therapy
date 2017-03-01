@@ -9,3 +9,17 @@ _Note: Still very much a work-in-progress._
 - Vim
 - X Window
 - GNU ls
+
+## Installation
+
+This repo doubles up as a Vim plugin, so you can install the Vim theme in the usual way you would install a plugin. For example, with [Plug](https://github.com/junegunn/vim-plug):
+
+```
+Plug 'adamransom/therapy'
+```
+
+Then you can set it as your colorscheme in Vi with:
+
+```Vimscript
+colorscheme therapy
+```
